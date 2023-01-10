@@ -32,7 +32,7 @@ class GdScintPrimaryGeneratorAction : public G4VUserPrimaryGeneratorAction
 
   private:
     G4ParticleGun*  fParticleGun; // pointer a to G4 gun class
-    G4Box* fScintillatorBox;
+    G4Box* fGEMDetector;
 };
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
